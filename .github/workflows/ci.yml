@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: publish
-        uses: gikiapp/giki.action@v1.0.0
+        uses: gikiapp/giki.action@v1.1.0
         with:
           token: ${{secrets.GIKI_TOKEN}}
